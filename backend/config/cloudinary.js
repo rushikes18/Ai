@@ -6,7 +6,6 @@ const uploadOnCloudinary =async (filePath)=>{
         api_key: process.env.CLOUDINARY_API_KEY, 
         api_secret: process.env.CLOUDINARY_API_SECRET 
     });
-
     try {
         const uploadResult = await cloudinary.uploader
        .upload(filePath)
