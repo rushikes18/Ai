@@ -8,7 +8,6 @@ import cookieParser from "cookie-parser"
 import userRouter from "./routes/user.routes.js"
 import geminiResponse from "./gemini.js"
 
-
 const app=express()
 app.use(cors({
     origin:"https://ai-2-9o4d.onrender.com",
