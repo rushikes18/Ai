@@ -7,5 +7,4 @@ const genToken=async (userId)=>{
         console.log(error)
     }
 }
-
 export default genToken
