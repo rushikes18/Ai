@@ -2,6 +2,7 @@
 import geminiResponse from "../gemini.js"
 import User from "../models/user.model.js"
 import moment from "moment"
+
  export const getCurrentUser=async (req,res)=>{
     try {
         const userId=req.userId
